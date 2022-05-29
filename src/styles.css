@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+svg#champagne {
+  margin-left: 20vw;
+  margin-top: 10vh;
+}
+
+@keyframes bubble-up {
+  from {
+    opacity: 0%;
+  }
+  13% {
+    opacity: 50%;
+  }
+  to {
+    cy: 11%;
+    opacity: 100%;
+  }
+}
+
+/* The element to apply the animation to */
+.bubble {
+  animation-name: bubble-up;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#bbl1 {
+  animation-duration: 2.5s;
+}
+
+#bbl2 {
+  animation-duration: 2s;
+}
+#bbl3 {
+  animation-duration: 1.9s;
+}
+
+#bbl4 {
+  animation-duration: 1.6s;
+}
+#bbl5 {
+  animation-duration: 2.1s;
+}
+#bbl6 {
+  animation-duration: 2.3s;
+}
+
+#bbl7 {
+  animation-duration: 2.1s;
+}
